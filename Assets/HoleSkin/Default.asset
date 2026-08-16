@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 557da9ca9ce004e2c892cf6019271634, type: 3}
+  m_Name: Default
+  m_EditorClassIdentifier: Assembly-CSharp::HoleSkinData
+  skinID: default
+  skinName: "M\u1EB7c \u0111\u1ECBnh"
+  uiIcon: {fileID: 21300000, guid: e4f5d8ec32cdff14f92dcb10c73a1ded, type: 3}
+  inGameMaterial: {fileID: 2100000, guid: 7f0a7d42c10f14467b991666247daae0, type: 2}
+  isUnlockedByDefault: 0
