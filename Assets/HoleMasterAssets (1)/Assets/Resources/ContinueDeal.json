@@ -1,0 +1,12 @@
+{
+  "OutOfBox": {
+    "from3": {
+      "lightning": 3,
+      "coinPlus": 500
+    },
+    "from6": {
+      "lightning": 6,
+      "coinPlus": 900
+    }
+  }
+}

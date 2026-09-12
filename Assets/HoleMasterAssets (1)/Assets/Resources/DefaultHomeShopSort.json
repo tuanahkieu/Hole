@@ -1,0 +1,86 @@
+{
+    "NonPurchaser": {
+        "Default": [
+            "starter",
+            "mini",
+            "pack2",
+            "pack3"
+        ],
+        "More": [
+            "eventDeal", 
+            "weekly",
+            "starter",
+            "mini",
+            "master",
+            "deluxe",
+            "super",
+            "marvelous",
+            "specialOffer",
+            "freeDailyCoin",
+            "freeAdCoin",
+            "happy",
+            "pack1",
+            "pack2",
+            "pack3",
+            "pack4",
+            "pack5",
+            "pack6"
+        ]
+    },
+    "Purchaser": {
+        "Default": [
+            "starter",
+            "mini",
+            "pack2",
+            "pack3"
+        ],
+        "More": [
+            "eventDeal",
+            "weekly",
+            "starter",
+            "mini",
+            "master",
+            "deluxe",
+            "super",
+            "marvelous",
+            "happy",
+            "specialOffer",
+            "freeDailyCoin",
+            "freeAdCoin",
+            "pack1",
+            "pack2",
+            "pack3",
+            "pack4",
+            "pack5",
+            "pack6"
+        ]
+    },
+    "StarterPurchaser": {
+        "Default": [
+            "marvelous",
+            "super",
+            "pack2",
+            "pack3"
+        ],
+        "More": [
+            "eventDeal",
+            "marvelous",
+            "super",
+            "deluxe",
+            "master",
+            "mini",
+            "happy",
+            "weekly",
+            "specialOffer",
+            "freeDailyCoin",
+            "freeAdCoin",
+            "pack1",
+            "pack2",
+            "pack3",
+            "pack4",
+            "pack5",
+            "pack6",
+            "starter"
+        ]
+    }
+}

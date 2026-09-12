@@ -1,0 +1,39 @@
+{
+  "enable": false,
+  "levelToShow": 10,
+  "durationInHour": 24,
+  "timeRepeatInHour": 168,
+  "position": 0,
+  "dealShow": [
+    {
+      "dealId": 1,
+      "discountTag": 20,
+      "minPrice": 0,
+      "maxPrice": 0.49
+    },
+    {
+      "dealId": 2,
+      "discountTag": 50,
+      "minPrice": 0.5,
+      "maxPrice": 4.99
+    },
+    {
+      "dealId": 3,
+      "discountTag": 70,
+      "minPrice": 5,
+      "maxPrice": 9.99
+    },
+    {
+      "dealId": 4,
+      "discountTag": 90,
+      "minPrice": 10,
+      "maxPrice": 19.99
+    },
+    {
+      "dealId": 5,
+      "discountTag": 90,
+      "minPrice": 20,
+      "maxPrice": 999.99
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "startDate": "2023-06-07",
+  "enable": false,
+  "loop": {
+    "type": "day",
+    "value": 7,
+    "delay": 0
+  },
+  "conditionList": {
+    "levelToShow": 1,
+    "position": 0,
+    "isCustomizable": true
+  },
+  "comboList": [
+    {
+      "comboId": 1,
+      "comboName": "Non Purchaser",
+      "minPrice": 0,
+      "maxPrice": 1,
+      "firstPackId": 1,
+      "secondPackId": 2,
+      "thirdPackId": 3
+    },
+    {
+      "comboId": 2,
+      "comboName": "Regular Purchaser",
+      "minPrice": 1.99,
+      "maxPrice": 8.99,
+      "firstPackId": 2,
+      "secondPackId": 3,
+      "thirdPackId": 4
+    },
+    {
+      "comboId": 3,
+      "comboName": "Medium Purchaser",
+      "minPrice": 9.99,
+      "maxPrice": 19.99,
+      "firstPackId": 4,
+      "secondPackId": 5,
+      "thirdPackId": 6
+    },
+    {
+      "comboId": 4,
+      "comboName": "Large Purchaser",
+      "minPrice": 19.99,
+      "maxPrice": 999.99,
+      "firstPackId": 1,
+      "secondPackId": 3,
+      "thirdPackId": 5
+    }
+  ]
+}

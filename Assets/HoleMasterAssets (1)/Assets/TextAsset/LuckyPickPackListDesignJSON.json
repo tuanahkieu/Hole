@@ -1,0 +1,550 @@
+{
+  "luckyPackList": [
+    {
+      "packId": 1,
+      "customKey": "com.lihuhu.findmatch.custom1",
+      "heartBuffTime": 20,
+      "isCustomizable": false,
+      "coinAdd": 200,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        },
+        "extraTime": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        },
+        "superFan": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        }
+      }
+    },
+    {
+      "packId": 1,
+      "customKey": "com.lihuhu.findmatch.custom1",
+      "heartBuffTime": 20,
+      "isCustomizable": true,
+      "coinAdd": 200,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 10
+        },
+        "extraTime": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 10
+        },
+        "superFan": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 10
+        }
+      }
+    },
+    {
+      "packId": 2,
+      "customKey": "com.lihuhu.findmatch.custom2",
+      "heartBuffTime": 20,
+      "isCustomizable": false,
+      "coinAdd": 200,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        },
+        "extraTime": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        },
+        "superFan": {
+          "isUseBuffTime": false,
+          "amount": 1,
+          "minToBuff": 0
+        }
+      }
+    },
+    {
+      "packId": 2,
+      "customKey": "com.lihuhu.findmatch.custom2",
+      "heartBuffTime": 20,
+      "isCustomizable": true,
+      "coinAdd": 200,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 10
+        },
+        "extraTime": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 10
+        },
+        "superFan": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 10
+        }
+      }
+    },
+    {
+      "packId": 3,
+      "customKey": "com.lihuhu.findmatch.custom3",
+      "heartBuffTime": 45,
+      "isCustomizable": false,
+      "coinAdd": 700,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "extraTime": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "superFan": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        }
+      }
+    },
+    {
+      "packId": 3,
+      "customKey": "com.lihuhu.findmatch.custom3",
+      "heartBuffTime": 45,
+      "isCustomizable": true,
+      "coinAdd": 700,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 5,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 5,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 5,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 20
+        },
+        "extraTime": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 20
+        },
+        "superFan": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 20
+        }
+      }
+    },
+    {
+      "packId": 4,
+      "customKey": "com.lihuhu.findmatch.custom4",
+      "heartBuffTime": 45,
+      "isCustomizable": false,
+      "coinAdd": 700,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "extraTime": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        },
+        "superFan": {
+          "isUseBuffTime": false,
+          "amount": 2,
+          "minToBuff": 0
+        }
+      }
+    },
+    {
+      "packId": 4,
+      "customKey": "com.lihuhu.findmatch.custom4",
+      "heartBuffTime": 45,
+      "isCustomizable": true,
+      "coinAdd": 700,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 5,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 5,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 5,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 20
+        },
+        "extraTime": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 20
+        },
+        "superFan": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 20
+        }
+      }
+    },
+    {
+      "packId": 5,
+      "customKey": "com.lihuhu.findmatch.custom5",
+      "heartBuffTime": 90,
+      "isCustomizable": false,
+      "coinAdd": 1800,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        },
+        "extraTime": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        },
+        "superFan": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        }
+      }
+    },
+    {
+      "packId": 5,
+      "customKey": "com.lihuhu.findmatch.custom5",
+      "heartBuffTime": 90,
+      "isCustomizable": true,
+      "coinAdd": 1800,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 9,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 9,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 9,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 30
+        },
+        "extraTime": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 30
+        },
+        "superFan": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 30
+        }
+      }
+    },
+    {
+      "packId": 6,
+      "customKey": "com.lihuhu.findmatch.custom6",
+      "heartBuffTime": 90,
+      "isCustomizable": false,
+      "coinAdd": 1800,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        },
+        "extraTime": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        },
+        "superFan": {
+          "isUseBuffTime": false,
+          "amount": 3,
+          "minToBuff": 0
+        }
+      }
+    },
+    {
+      "packId": 6,
+      "customKey": "com.lihuhu.findmatch.custom6",
+      "heartBuffTime": 90,
+      "isCustomizable": true,
+      "coinAdd": 1800,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 9,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 9,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 9,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 30
+        },
+        "extraTime": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 30
+        },
+        "superFan": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 30
+        }
+      }
+    },
+    {
+      "packId": 7,
+      "customKey": "com.lihuhu.findmatch.custom7",
+      "heartBuffTime": 180,
+      "isCustomizable": false,
+      "coinAdd": 3900,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 6,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 6,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 6,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": false,
+          "amount": 6,
+          "minToBuff": 0
+        },
+        "extraTime": {
+          "isUseBuffTime": false,
+          "amount": 6,
+          "minToBuff": 0
+        },
+        "superFan": {
+          "isUseBuffTime": false,
+          "amount": 6,
+          "minToBuff": 0
+        }
+      }
+    },
+    {
+      "packId": 7,
+      "customKey": "com.lihuhu.findmatch.custom7",
+      "heartBuffTime": 180,
+      "isCustomizable": true,
+      "coinAdd": 3900,
+      "packDetail": {
+        "magnet": {
+          "isUseBuffTime": false,
+          "amount": 12,
+          "minToBuff": 0
+        },
+        "undo": {
+          "isUseBuffTime": false,
+          "amount": 12,
+          "minToBuff": 0
+        },
+        "freeze": {
+          "isUseBuffTime": false,
+          "amount": 12,
+          "minToBuff": 0
+        },
+        "lightning": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 60
+        },
+        "extraTime": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 60
+        },
+        "superFan": {
+          "isUseBuffTime": true,
+          "amount": 0,
+          "minToBuff": 60
+        }
+      }
+    }
+  ]
+}

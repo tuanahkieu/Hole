@@ -1,0 +1,46 @@
+{
+  "properties": [
+    {
+      "project_name": "Mall Blitz"
+    },
+    {
+      "android_package_name": "and.brainworks.mbz"
+    },
+    {
+      "ios_bundle_id": "com.brainworks.mallblitz"
+    },
+    {
+      "ios_app_id": "6474663177"
+    },
+    {
+      "ios_team_id": ""
+    },
+    {
+      "facebook_app_id": "1091365815454159"
+    },
+    {
+      "appsflyer_dev_key": "DpyJ9XzFcpTSDGzpGj9CAW"
+    },
+    {
+      "google_play_games_leader_board_resources": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!--Google Play game services IDs. Save this file as res/values/games-ids.xml in your project.-->\n<resources>\n  <!--app_id-->\n  <string name=\"app_id\" translatable=\"false\">484670736653</string>\n  <!--package_name-->\n  <string name=\"package_name\" translatable=\"false\">and.brainworks.mbz</string>\n  <!--leaderboard Total Level-->\n  <string name=\"leaderboard_total_level\" translatable=\"false\">CgkIjZKCxY0OEAIQAQ</string>\n</resources>"
+    },
+    {
+      "helpshift_android_api_key": "631f2846cd9039906546f57cfc9dd464"
+    },
+    {
+      "helpshift_android_domain_name": "lihuhugames.helpshift.com"
+    },
+    {
+      "helpshift_android_app_id": "lihuhugames_platform_20231221072652130-17c9a0b6145d102"
+    },
+    {
+      "helpshift_ios_api_key": "631f2846cd9039906546f57cfc9dd464"
+    },
+    {
+      "helpshift_ios_domain_name": "lihuhugames.helpshift.com"
+    },
+    {
+      "helpshift_ios_app_id": "lihuhugames_platform_20231221072652100-efd936228803c1f"
+    }
+  ]
+}

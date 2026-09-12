@@ -3,6 +3,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] private AudioSource effectAudioSource;
+    [SerializeField] private AudioSource bgmAudioSource;
     [SerializeField] private AudioClip btnClick;
     [SerializeField] private AudioClip eat;
     [SerializeField] private AudioClip holeUp;
@@ -11,6 +12,7 @@ public class AudioManager : MonoBehaviour
     [SerializeField] private AudioClip compass;
     [SerializeField] private AudioClip winMusic;
     [SerializeField] private AudioClip homeMusic;
+    [SerializeField] private AudioClip loseMusic;
 
     public void playBtnClickSound(){
         effectAudioSource.PlayOneShot(btnClick);
@@ -51,10 +53,19 @@ public class AudioManager : MonoBehaviour
     public void playWinMusic(){
         effectAudioSource.PlayOneShot(winMusic);
     }
+    public void playLoseMusic(){
+        effectAudioSource.PlayOneShot(loseMusic);
+    }
     public void playHomeMusic(){
-        effectAudioSource.clip = homeMusic;
-        effectAudioSource.loop = true;
-        effectAudioSource.Play();
+        bgmAudioSource.clip = homeMusic;
+        bgmAudioSource.loop = true;
+        bgmAudioSource.Play();
+    }
+    public void muteMusic(){
+        bgmAudioSource.mute = !bgmAudioSource.mute;
+    }
+    public void muteEffect(){
+        effectAudioSource.mute = !effectAudioSource.mute;
     }
     // public void stopHomeMusic(){
     //     if(effectAudioSource.clip == homeMusic) {

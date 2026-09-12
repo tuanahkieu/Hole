@@ -10,6 +10,7 @@ public class GamePlayManager : MonoBehaviour
     [Header("UI Elements")]
     [SerializeField] private GameObject settingPopup; 
     [SerializeField] private GameObject winGamePopup; 
+    [SerializeField] private GameObject loseGamePopup; 
     [SerializeField] private GameObject exitPopup; 
     [SerializeField] private GameObject SizeUpPopup; 
     [SerializeField] private GameObject MagnetPopup; 
@@ -21,6 +22,7 @@ public class GamePlayManager : MonoBehaviour
     [SerializeField] private GameObject FreezePopup;
     
     [Header("Costs")]
+    [SerializeField] private int extraTimeCost = 900;
     [SerializeField] private int sizeUpCost = 200;
     [SerializeField] private int magnetCost = 200;
     [SerializeField] private int compassCost = 200;
@@ -66,6 +68,49 @@ public class GamePlayManager : MonoBehaviour
     {
         currentMatchGold += amount;
     }
+    // Loss
+    public void GameLose()
+    {
+        if (loseGamePopup != null)
+        {
+            loseGamePopup.SetActive(true);
+            if (coin != null) coin.SetActive(true);
+            audioManager.playLoseMusic();
+            Time.timeScale = 0f; 
+        }
+        else
+        {
+            ExitGame();
+        }
+    }
+
+    public void BuyExtraTimeWithCoin()
+    {
+        audioManager.playBtnClickSound();
+        int totalGold = PlayerPrefs.GetInt("TotalGold", 0);
+        if (totalGold >= extraTimeCost)
+        {
+            totalGold -= extraTimeCost;
+            PlayerPrefs.SetInt("TotalGold", totalGold);
+            PlayerPrefs.Save();
+            
+            UpdateInGameTotalGold();
+
+            if (loseGamePopup != null) loseGamePopup.SetActive(false);
+            if (coin != null) coin.SetActive(false);
+
+            if (TimeManager.Instance != null)
+            {
+                TimeManager.Instance.AddTime(45f);
+            }
+            Time.timeScale = 1f; 
+        }
+        else
+        {
+            ShowNotEnoughCoinText();
+        }
+    }
+
     //Win
     public void GameWin()
     {

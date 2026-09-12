@@ -1,0 +1,219 @@
+{
+  "dealList": [
+    {
+      "dealId": 1,
+      "coinClaim": 200,
+      "heartBuffTimeInMin": 60,
+      "itemList":[
+        {
+          "itemName" : "magnet",
+          "isUseBuffTime": false,
+          "amount" : 1,
+          "minToBuff": 11
+        },
+        {
+          "itemName" : "undo",
+          "isUseBuffTime": false,
+          "amount" : 1,
+          "minToBuff": 12
+        },
+        {
+          "itemName" : "freeze",
+          "isUseBuffTime": false,
+          "amount" : 1,
+          "minToBuff": 13
+        },
+        {
+          "itemName" : "lightning",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 10
+        },
+        {
+          "itemName" : "extraTime",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 30
+        },
+        {
+          "itemName" : "superFan",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 10
+        }
+      ]
+    },
+    {
+      "dealId": 2,
+      "coinClaim": 600,
+      "heartBuffTimeInMin": 60,
+      "itemList":[
+        {
+          "itemName" : "magnet",
+          "isUseBuffTime": false,
+          "amount" : 1,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "undo",
+          "isUseBuffTime": false,
+          "amount" : 1,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "freeze",
+          "isUseBuffTime": false,
+          "amount" : 1,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "lightning",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 60
+        },
+        {
+          "itemName" : "extraTime",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 20
+        },
+        {
+          "itemName" : "superFan",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 20
+        }
+      ]
+    },
+    {
+      "dealId": 3,
+      "coinClaim": 1400,
+      "heartBuffTimeInMin": 180,
+      "itemList":[
+        {
+          "itemName" : "magnet",
+          "isUseBuffTime": false,
+          "amount" : 3,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "undo",
+          "isUseBuffTime": false,
+          "amount" : 3,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "freeze",
+          "isUseBuffTime": false,
+          "amount" : 3,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "lightning",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 60
+        },
+        {
+          "itemName" : "extraTime",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 60
+        },
+        {
+          "itemName" : "superFan",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 30
+        }
+      ]
+    },
+    {
+      "dealId": 4,
+      "coinClaim": 2500,
+      "heartBuffTimeInMin": 240,
+      "itemList":[
+        {
+          "itemName" : "magnet",
+          "isUseBuffTime": false,
+          "amount" : 4,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "undo",
+          "isUseBuffTime": false,
+          "amount" : 4,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "freeze",
+          "isUseBuffTime": false,
+          "amount" : 4,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "lightning",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 180
+        },
+        {
+          "itemName" : "extraTime",
+          "isUseBuffTime": true,
+          "amount" : 5,
+          "minToBuff": 180
+        },
+        {
+          "itemName" : "superFan",
+          "isUseBuffTime": true,
+          "amount" : 5,
+          "minToBuff": 60
+        }
+      ]
+    },
+    {
+      "dealId": 5,
+      "coinClaim": 4000,
+      "heartBuffTimeInMin": 360,
+      "itemList":[
+        {
+          "itemName" : "magnet",
+          "isUseBuffTime": false,
+          "amount" : 5,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "undo",
+          "isUseBuffTime": false,
+          "amount" : 5,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "freeze",
+          "isUseBuffTime": false,
+          "amount" : 5,
+          "minToBuff": 0
+        },
+        {
+          "itemName" : "lightning",
+          "isUseBuffTime": true,
+          "amount" : 0,
+          "minToBuff": 360
+        },
+        {
+          "itemName" : "extraTime",
+          "isUseBuffTime": true,
+          "amount" : 5,
+          "minToBuff": 360
+        },
+        {
+          "itemName" : "superFan",
+          "isUseBuffTime": true,
+          "amount" : 5,
+          "minToBuff": 180
+        }
+      ]
+    }    
+  ]
+}

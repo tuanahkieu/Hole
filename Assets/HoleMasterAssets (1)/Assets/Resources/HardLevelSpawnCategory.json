@@ -1,0 +1,19 @@
+{
+  "IsEnable": false,
+  "NormalCategory": [
+    "Fruit",
+    "School",
+    "Toy"
+  ],
+  "ChallengeCategory": [
+    "Household",
+    "Food",
+    "Drink"
+  ],
+  "MasterCategory": [
+    "Furniture",
+    "Kitchen",
+    "Music",
+    "Clothes"
+  ]
+}

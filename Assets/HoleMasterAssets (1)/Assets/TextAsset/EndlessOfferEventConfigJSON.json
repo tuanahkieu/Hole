@@ -1,0 +1,736 @@
+{
+  "startDate": "2023-09-09",
+  "endDate": "2023-12-30",
+  "enable": true,
+  "loop": {
+    "type": "day",
+    "value": 7,
+    "delay": 0
+  },
+  "levelToShow": 15,
+  "uiStyle": 1,
+  "packOrder": {
+    "fixedPack": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "packLoop": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      5,
+      6,
+      7,
+      8,
+      9,
+      6,
+      7,
+      8,
+      9,
+      7,
+      8,
+      9
+    ]
+  },
+  "endlessList": [
+    {
+      "freeSlotList": [
+        {
+          "rewardList": [
+            {
+              "name": "L",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buySlot": {
+        "rewardList": [
+          {
+            "name": "S",
+            "amount": 1
+          },
+          {
+            "name": "C",
+            "amount": 250
+          }
+        ]
+      },
+      "freeSlotList": [
+        {
+          "rewardList": [
+            {
+              "name": "L",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 50
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buySlot": {
+        "rewardList": [
+          {
+            "name": "C",
+            "amount": 300
+          },
+          {
+            "name": "HTime",
+            "amount": 15
+          }
+        ]
+      },
+      "freeSlotList": [
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 20
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "L",
+              "amount": 1
+            },
+            {
+              "name": "S",
+              "amount": 1
+            },
+            {
+              "name": "E",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "M",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "F",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "U",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buySlot": {
+        "rewardList": [
+          {
+            "name": "M",
+            "amount": 2
+          },
+          {
+            "name": "C",
+            "amount": 500
+          }
+        ]
+      },
+      "freeSlotList": [
+        {
+          "rewardList": [
+            {
+              "name": "L",
+              "amount": 1
+            },
+            {
+              "name": "U",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "F",
+              "amount": 1
+            },
+            {
+              "name": "U",
+              "amount": 1
+            },
+            {
+              "name": "L",
+              "amount": 1
+            },
+            {
+              "name": "C",
+              "amount": 50
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "HTime",
+              "amount": 30
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 50
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "L",
+              "amount": 1
+            },
+            {
+              "name": "S",
+              "amount": 1
+            },
+            {
+              "name": "E",
+              "amount": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buySlot": {
+        "rewardList": [
+          {
+            "name": "C",
+            "amount": 700
+          }
+        ]
+      },
+      "freeSlotList": [
+        {
+          "rewardList": [
+            {
+              "name": "U",
+              "amount": 3
+            },
+            {
+              "name": "M",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 150
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "F",
+              "amount": 3
+            },
+            {
+              "name": "U",
+              "amount": 3
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "L",
+              "amount": 1
+            },
+            {
+              "name": "E",
+              "amount": 1
+            },
+            {
+              "name": "S",
+              "amount": 1
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 150
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "HTime",
+              "amount": 120
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buySlot": {
+        "rewardList": [
+          {
+            "name": "C",
+            "amount": 1000
+          }
+        ]
+      },
+      "freeSlotList": [
+        {
+          "rewardList": [
+            {
+              "name": "S",
+              "amount": 2
+            },
+            {
+              "name": "E",
+              "amount": 2
+            },
+            {
+              "name": "L",
+              "amount": 2
+            },
+            {
+              "name": "C",
+              "amount": 150
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "ETime",
+              "amount": 30
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "HTime",
+              "amount": 30
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "LTime",
+              "amount": 30
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "STime",
+              "amount": 30
+            },
+            {
+              "name": "HTime",
+              "amount": 30
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "F",
+              "amount": 3
+            },
+            {
+              "name": "S",
+              "amount": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buySlot": {
+        "rewardList": [
+          {
+            "name": "C",
+            "amount": 2500
+          }
+        ]
+      },
+      "freeSlotList": [
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 500
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "L",
+              "amount": 2
+            },
+            {
+              "name": "E",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "S",
+              "amount": 2
+            },
+            {
+              "name": "M",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "HTime",
+              "amount": 90
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "F",
+              "amount": 2
+            },
+            {
+              "name": "U",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "ETime",
+              "amount": 30
+            },
+            {
+              "name": "STime",
+              "amount": 30
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buySlot": {
+        "rewardList": [
+          {
+            "name": "C",
+            "amount": 3000
+          },
+          {
+            "name": "S",
+            "amount": 4
+          },
+          {
+            "name": "E",
+            "amount": 4
+          },
+          {
+            "name": "L",
+            "amount": 4
+          }
+        ]
+      },
+      "freeSlotList": [
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 500
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "LTime",
+              "amount": 60
+            },
+            {
+              "name": "ETime",
+              "amount": 60
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "STime",
+              "amount": 60
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "HTime",
+              "amount": 90
+            },
+            {
+              "name": "C",
+              "amount": 50
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "F",
+              "amount": 4
+            },
+            {
+              "name": "U",
+              "amount": 4
+            },
+            {
+              "name": "M",
+              "amount": 4
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "HTime",
+              "amount": 90
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buySlot": {
+        "rewardList": [
+          {
+            "name": "C",
+            "amount": 6000
+          },
+          {
+            "name": "L",
+            "amount": 6
+          },
+          {
+            "name": "S",
+            "amount": 6
+          },
+          {
+            "name": "E",
+            "amount": 6
+          },
+          {
+            "name": "M",
+            "amount": 6
+          },
+          {
+            "name": "U",
+            "amount": 6
+          },
+          {
+            "name": "F",
+            "amount": 6
+          }
+        ]
+      },
+      "freeSlotList": [
+        {
+          "rewardList": [
+            {
+              "name": "F",
+              "amount": 6
+            },
+            {
+              "name": "U",
+              "amount": 6
+            },
+            {
+              "name": "M",
+              "amount": 6
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "HTime",
+              "amount": 360
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "L",
+              "amount": 6
+            },
+            {
+              "name": "S",
+              "amount": 6
+            },
+            {
+              "name": "E",
+              "amount": 6
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 500
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 500
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "buySlot": {
+        "rewardList": [
+          {
+            "name": "C",
+            "amount": 8000
+          },
+          {
+            "name": "M",
+            "amount": 24
+          },
+          {
+            "name": "U",
+            "amount": 24
+          },
+          {
+            "name": "F",
+            "amount": 24
+          }
+        ]
+      },
+      "freeSlotList": [
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "L",
+              "amount": 24
+            },
+            {
+              "name": "S",
+              "amount": 24
+            },
+            {
+              "name": "E",
+              "amount": 24
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "HTime",
+              "amount": 1440
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "C",
+              "amount": 1000
+            }
+          ]
+        },
+        {
+          "rewardList": [
+            {
+              "name": "HTime",
+              "amount": 1440
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -39,6 +39,9 @@ public class GameManager : MonoBehaviour
 
     [Header("Heart Manager")]
     [SerializeField] private int defaultHeart = 5; // Số mạng mặc định có thể chỉnh trong Inspector
+    [SerializeField] private GameObject heartPopup;
+    [SerializeField] private TextMeshProUGUI popupTimeWaitText;
+    [SerializeField] private int heartRefillCost = 900;
 
     [Header("Gold Manager")]
     [SerializeField] private TextMeshProUGUI totalGoldText;
@@ -142,6 +145,7 @@ public class GameManager : MonoBehaviour
         }
         else{
             Debug.LogWarning("Đã hết lượt chơi. Hãy chờ hồi sinh hoặc xem quảng cáo.");
+            OpenHeartPopup();
         }
     }
 
@@ -312,13 +316,63 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            ShowNotEnoughCoinText();
+            ShowNotEnoughCoinText(playPopup);
         }
     }
 
-    private void ShowNotEnoughCoinText()
+    public void OpenHeartPopup()
     {
-        Transform parentTransform = playPopup != null ? playPopup.transform : (FindObjectOfType<Canvas>()?.transform);
+        if (heartPopup != null)
+        {
+            heartPopup.SetActive(true);
+        }
+        audioManager.playBtnClickSound();
+    }
+
+    public void CloseHeartPopup()
+    {
+        if (heartPopup != null)
+        {
+            heartPopup.SetActive(false);
+        }
+        audioManager.playBtnClickSound();
+    }
+
+    public void BuyHeartWithCoin()
+    {
+        int totalGold = PlayerPrefs.GetInt("TotalGold", 0);
+
+        if (totalGold >= heartRefillCost)
+        {
+            // Trừ tiền
+            totalGold -= heartRefillCost;
+            PlayerPrefs.SetInt("TotalGold", totalGold);
+            
+            // Cập nhật UI tiền
+            if (totalGoldText != null) totalGoldText.text = totalGold.ToString();
+
+            // Cấp full mạng
+            PlayerPrefs.SetInt("Heart", defaultHeart);
+            if (heart != null) heart.text = defaultHeart.ToString();
+
+            // Xóa thời gian chờ hồi tim
+            PlayerPrefs.DeleteKey("NextHeartTime");
+            PlayerPrefs.Save();
+
+            CloseHeartPopup();
+
+            // Gọi hàm LoadGameScene để vào thẳng màn chơi
+            LoadGameScene();
+        }
+        else
+        {
+            ShowNotEnoughCoinText(heartPopup);
+        }
+    }
+
+    private void ShowNotEnoughCoinText(GameObject targetPopup)
+    {
+        Transform parentTransform = targetPopup != null ? targetPopup.transform : (FindObjectOfType<Canvas>()?.transform);
         if (parentTransform == null) return;
 
         // Tạo một Text UI linh động để đảm bảo nó luôn đè lên trên cùng của mọi Popup
@@ -379,11 +433,15 @@ public class GameManager : MonoBehaviour
 
     // Hàm cập nhật thời gian hồi mạng chơi
     public void UpdateTimerDisplay(float time){
-        if(timeWaitText != null){
-            int minutes = Mathf.FloorToInt(time / 60f);
-            int seconds = Mathf.FloorToInt(time % 60f);
+        int minutes = Mathf.FloorToInt(time / 60f);
+        int seconds = Mathf.FloorToInt(time % 60f);
+        string timeStr = string.Format("{0:00}:{1:00}", minutes, seconds);
 
-            timeWaitText.text = string.Format("{0:00}:{1:00}", minutes, seconds);   
+        if(timeWaitText != null){
+            timeWaitText.text = timeStr;   
+        }
+        if(popupTimeWaitText != null){
+            popupTimeWaitText.text = timeStr;
         }
     }
     private void Update(){
@@ -392,6 +450,7 @@ public class GameManager : MonoBehaviour
         if (h >= 5)
         {
             if (timeWaitText != null) timeWaitText.text = "Đầy";
+            if (popupTimeWaitText != null) popupTimeWaitText.text = "Đầy";
             
             // Xóa mốc thời gian nếu tim đã đầy để tránh lỗi khi dùng tim lại
             if (PlayerPrefs.HasKey("NextHeartTime")) {
@@ -492,6 +551,14 @@ public class GameManager : MonoBehaviour
             namePopup.SetActive(false);
         }
         audioManager.playBtnClickSound();
+    }
+
+    public void muteMusic(){
+        audioManager.muteMusic();
+    }
+
+    public void muteEffect(){
+        audioManager.muteEffect();
     }
 
 }

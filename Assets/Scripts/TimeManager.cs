@@ -44,6 +44,14 @@ public class TimeManager : MonoBehaviour
         isStarted = true;
     }
 
+    public void AddTime(float amount)
+    {
+        timeMax += amount;
+        currentTime += amount;
+        UpdateTimerDisplay(currentTime);
+        isStarted = true;
+    }
+
     private void UpdateTimerDisplay(float time)
     {
         if (timeText != null)
@@ -78,7 +86,7 @@ public class TimeManager : MonoBehaviour
             {
                 currentTime = 0;
                 UpdateTimerDisplay(currentTime);
-                GamePlayManager.Instance.GameWin();
+                GamePlayManager.Instance.GameLose();
             }
         }
     }
